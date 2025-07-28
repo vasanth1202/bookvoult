@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brief Book Insights</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <h3><b><em>Booksky</em></b></h3>
+        <h4>BookVault</h4>
+    </div> 
+
+
+    <div class="container" id="book-list"></div><!-- Book cards will appear here -->
+
+    <!--  Book card Popup elements after click on +  -->
+    <div class="popup-overlay" id="popup-overlay"></div>
+
+    <div class="popup-box" id="popup-box">
+        <h3>Add Book</h3>
+        <form id="book-form">
+            <input id="book-title-input"type="text"placeholder="Book Title:"required />
+            <input id="book-author-input"type="text"placeholder="Author Name:"required />
+            <textarea id="book-description-input"placeholder="Description Within 3 Lines:"required></textarea>
+            <button type="submit">Add</button>
+            <button type="button" id="cancel-popup">Cancel</button>
+        </form>
+  </div>
+
+  <!-- Add button -->
+  <button class="add-btn" id="add-popup-btn">+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
