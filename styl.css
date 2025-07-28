@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #ddafb1;
     background-image: linear-gradient(90deg,green,rgb(205, 107, 50),blue,pink);
     /* background-image:url(https://images.wallpapersden.com/image/download/fire-sunset-at-road-4k_bGdqbGiUmZqaraWkpJRnamtlrWZpaWU.jpg) ; */
 }
